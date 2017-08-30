@@ -36,16 +36,5 @@ public class Block extends Surface {
         if (getTranslateY() > Main.SCREEN_HEIGHT) {
             listOfBlocks.remove(this);
         }
-
-        /*for (int i = 0; i < SPEED_TO_DOWN; i++) {
-
-            if (getTranslateY() + getHeight() == Main.SCREEN_HEIGHT) {
-                return;
-            }
-
-            setTranslateY(getTranslateY() + 1);
-        }*/
-
-
     }
 }
