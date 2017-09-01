@@ -166,9 +166,8 @@ public class Main extends Application{
         }
 
         createStartingBlocks();
-        player.moveToStartingPosition();
-        player.setLive(Hero.LIVE_COUNT);
-        player.setScore(0);
+
+        player = new Hero();
 
         startGame();
     }
