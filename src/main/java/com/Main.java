@@ -167,7 +167,8 @@ public class Main extends Application{
 
         createStartingBlocks();
 
-        player = new Hero();
+        player.toDefault();
+
 
         startGame();
     }

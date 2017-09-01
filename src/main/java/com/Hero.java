@@ -186,6 +186,17 @@ public class Hero extends Surface {
 
     }
 
+    public void toDefault() {
+        moveToStartingPosition();
+        setLive(Hero.LIVE_COUNT);
+        setScore(0);
+        down = false;
+        up = false;
+        left = false;
+        right = false;
+        yVel = 0;
+    }
+
     public int getLive() {
         return live;
     }
