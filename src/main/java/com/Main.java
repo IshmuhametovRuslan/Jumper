@@ -33,7 +33,7 @@ public class Main extends Application{
     private Statistic state;
     private PauseMain pauseMain;
 
-    private AnimationTimer timer;
+    private AnimationTimerExt timer;
 
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Jumper");
@@ -108,9 +108,9 @@ public class Main extends Application{
 
         interval = 0;
 
-        timer = new AnimationTimer() {
+        timer = new AnimationTimerExt(16) {
             @Override
-            public void handle(long now) {
+            public void handle() {
                 interval++;
 
                 if (interval > 80) {
