@@ -1,6 +1,5 @@
 package com;
 
-import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -21,7 +20,7 @@ import java.util.ArrayList;
 public class Main extends Application{
 
     static final int SCREEN_WIDTH = 800;
-    static final int SCREEN_HEIGHT = 720;
+    static final int SCREEN_HEIGHT = 700;
 
     private int interval;
 
